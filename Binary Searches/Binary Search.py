@@ -1,3 +1,6 @@
+# Time: O(logn)
+# Space: O(1)
+
 nums = [1, 2, 4, 6, 7, 11, 14, 15, 17, 20]
 target = 14
 
