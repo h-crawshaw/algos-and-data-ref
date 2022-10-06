@@ -13,3 +13,5 @@ def quicksort(array):
     return quicksort(lesser) + [pivot] + quicksort(greater)
 
 print(quicksort(nums))
+
+print(1//2)
