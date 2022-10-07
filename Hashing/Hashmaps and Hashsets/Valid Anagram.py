@@ -15,7 +15,4 @@ def isValidAnagram(s, t):
   for char in t:
     hmap2[char] = hmap2.get(char, 0) + 1
   
-  if hmap1 == hmap2:
-    return True
-  else:
-    return False
+  return hmap1 == hmap2
