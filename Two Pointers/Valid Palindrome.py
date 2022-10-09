@@ -1,6 +1,6 @@
 
 from curses.ascii import isalnum
-
+'carrac'
 
 def isValidPalindrome(s):
   l, r = 0, len(s) - 1
